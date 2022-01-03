@@ -1,0 +1,129 @@
+
+main{
+    width:400px;
+    height:830px;
+    position: relative;
+    margin:auto;
+    background-color:rgb(22, 15, 58);
+    border-radius: 10px;
+}
+aside{
+    background-color:rgba(149, 10, 192, 0.918)  ;
+    width:400px;
+    height:300px;
+    border-radius: 10px 10px 10px 0px; 
+}
+img{
+    height:300px;
+    width:400px;
+    border-radius: 10px 10px 0px 0px;
+    opacity:0.6;
+}
+body{
+    background-color:rgb(13, 9, 36);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section > div{
+    position: relative;
+    top:30px;
+    margin:auto;
+    width:300px;
+    color:white;
+    text-align: center;
+}
+h3{
+    line-height: 35px;
+    font-size: 25px;
+}
+ p{
+   font-size:13px;
+   text-align: center;
+   line-height: 22px;
+   color: blanchedalmond;
+}
+.tab{
+    width:350px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    margin-left:-50px;
+}
+.tab >p {
+    padding-left:50px;   
+}
+b{
+    font-size: 20px;
+}
+
+
+@media screen and (min-width:586px) {
+     
+ 
+
+ body{
+     background-color:rgb(13, 9, 36);
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ main{
+     width:1000px;
+     height:350px;
+     position: relative;
+     margin:auto;
+     top:180px;
+     background-color:rgb(22, 15, 58);
+     border-radius: 10px;
+ }
+ section{
+     width:450px;
+     height:350px;
+     display:inline;
+     float:left;
+     text-align: left;
+     align-content: center;
+ }
+ section > div{
+     position: relative;
+     top:30px;
+     margin:auto;
+     width:300px;
+     color:white;
+ }
+ h3{
+     line-height: 35px;
+     font-size: 22px;
+     text-align: left;
+ }
+  p{
+    font-size:10px;
+    text-align: left;
+    line-height: 22px;
+    color: blanchedalmond;
+}
+ aside{
+     background-color:rgba(149, 10, 192, 0.918)  ;
+     width:500px;
+     height:350px;
+     float:right;
+     border-radius: 0px 10px 10px 0px; 
+ }
+ img{
+     height:350px;
+     width:500px;
+     border-radius: 0px 10px 10px 0px;
+     opacity:0.6;
+ }
+ .tab{
+     width:350px;
+     margin:auto;
+     display:flex;
+     flex-direction: row;
+     margin-left:-50px;
+}
+.tab >p {
+    padding-left:50px;
+    
+}
+b{
+    font-size: 20px;
+}
+}
